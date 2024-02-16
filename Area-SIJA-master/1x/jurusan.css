@@ -1,0 +1,437 @@
+/* fonts */
+/* font-family: 'Righteous', cursive;*/
+/* font-family: 'Acme', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gray;
+}
+
+.container{
+    width: 100%;
+    background-color: aqua;
+    margin: 50px auto;
+}
+
+.bagian-pertama{
+    width: 75%;
+    height: 100%;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 50px;
+    margin-bottom: 50px;
+}
+
+.judul-1{
+    width: 100%;
+    margin-bottom: 20px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 40px;
+    color: rgb(96, 96, 250);
+    letter-spacing: 5px;
+    /* background-color: yellow; */
+    text-align: center;
+}
+
+.judul-1 .orange{
+    color: orange;
+}
+
+.deskripsi-1{
+    width: 50%;
+    border: 3px solid rgb(96, 96, 250);
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 15px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.bidang{
+    /* background-color: blueviolet; */
+    display: flex;
+    width: 100%;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    height: 750px;
+    padding: 10px;
+}
+
+.kartu{
+    border-radius: 10px;
+    width: 30%;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    box-shadow: 10px 10px 10px rgb(142, 142, 223);
+    height: 100%;
+    height: 30%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+}
+
+.kartu:hover{
+    transform: rotateY(180deg);
+}
+
+
+
+.depan{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: orange;
+    color: black;
+    border-radius: 10px;
+    font-family: 'Righteous', cursive;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.depan-1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: rgb(96, 96, 250);
+    color: white;
+    border-radius: 10px;
+    font-family: 'Righteous', cursive;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.belakang{
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: rgb(252, 193, 85);
+    color: black;
+    border-radius: 10px;
+    transform: rotateY(180deg);
+    padding: 15px;
+    letter-spacing: 1px;
+}
+
+.belakang-1{
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: rgb(147, 147, 247);
+    color: black;
+    border-radius: 10px;
+    transform: rotateY(180deg);
+    padding: 15px;
+    letter-spacing: 1px;
+}
+
+.bagian-kedua{
+    width: 75%;
+    height: 100%;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 50px;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.judul-deskripsi{
+    width: 40%;
+    /* background-color: blueviolet; */
+    padding: 10px;
+}
+
+.judul-2{
+    width: 100%;
+    /* background-color: pink; */
+    font-family: 'Fredoka One', cursive;
+    font-size: 40px;
+    color: rgb(96, 96, 250);
+    letter-spacing: 5px;
+    padding: 15px;
+    border: 5px solid orange;
+    border-radius: 30px;
+}
+.judul-2 .orange{
+    color: orange;
+}
+
+.deskripsi-2{
+    width: 100%;
+    /* background-color: lightgreen; */
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+    padding: 15px;
+    line-height: 25px;
+    border: 5px solid blue;
+    border-radius: 30px;
+    margin-top: 15px;
+}
+
+.sosmed{
+    width: 100%;
+    background-color: orange;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.btn-sosmed{
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+    /* background-color: chocolate; */
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 35px;
+    font-family: 'Righteous', cursive;
+    border: 10px solid orange;
+    letter-spacing: 5px;
+}
+
+.foto-s{
+    width: 60%;
+    /* background-color: chartreuse; */
+    padding: 20px;
+}
+
+.foto{
+    width: 750px;
+    height: 500px;
+    background-color: gray;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.slide-img{
+    position: absolute;
+    width: 750px;
+    height: 500px;
+    background-color: blue;
+    border-radius: 20px;
+}
+
+.slide-img img{
+    width: 750px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+#i1, #i2, #i3{
+    display: none;
+}
+
+.pre, .nxt{
+    width: 12%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-color: rgba(2, 2, 2, 0.6);
+    z-index: 99;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.pre{
+    left: 0;
+}
+
+.nxt{
+    right: 0;
+}
+
+.nav{
+    width: 750px;
+    height: 10px;
+    position: absolute;
+    text-align: center;
+    z-index: 99;
+    margin-top: 475px;
+}
+
+.dots{
+    top: -5px;
+    width: 20px;
+    height: 20px;
+    margin: 0 4px;
+    position: relative;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: rgba(0,0,0,.6);
+}
+
+.slide-img{
+    z-index: -1;
+}
+
+#i1:checked ~ #satu,
+#i2:checked ~ #dua,
+#i3:checked ~ #tiga{
+    z-index: 9;
+}
+
+#i1:checked ~ .nav #dot1,
+#i2:checked ~ .nav #dot2,
+#i3:checked ~ .nav #dot3{
+    background-color: aliceblue;
+}
+
+.bagian-ketiga{
+    width: 75%;
+    height: 100%;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 50px;
+    margin-bottom: 50px;
+}
+.judul-3{
+    width: 50%;
+    text-align:  right;
+    font-family: 'Righteous', cursive;
+    color: rgb(96, 96, 250);
+    font-size: 50px;
+}
+
+.judul-3 .orange{
+    color: orange;
+}
+.bidang-foto{
+    display: flex;
+}
+.foto-3{
+    width: 50%;
+    background-image: url(img/Wavy_Tech-29_Single-02.jpg);
+    background-size: cover;
+    height: 600px;
+}
+.bidang-3{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+    width: 50%;
+    flex-wrap: wrap;
+}
+.network{
+    width: 48%;
+    background-color: aqua;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-radius: 50px;
+}
+
+.desain{
+    width: 48%;
+    background-color: yellow;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-radius: 50px;
+}
+
+.web{
+    width: 48%;
+    background-color: lightgreen;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+
+.software{
+    width: 48%;
+    background-color: lightcoral;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+
+.bagian-keempat{
+    width: 75%;
+    height: 100%;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 50px;
+    margin-bottom: 50px;  
+}
+
+.judul-4{
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    font-size: 45px;
+    text-decoration: underline;
+    margin-bottom: -10px;
+    color: rgb(96, 96, 250);
+    letter-spacing: 5px;
+}
+
+.judul-4 .orange{
+    color: orange;
+    text-decoration: underline;
+}
+
+.deskripsi-4{
+    border: 3px solid rgb(96, 96, 250);
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+    letter-spacing: 3px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.teacher{
+    display: flex;
+    margin: 50px auto;
+    width: 90%;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.guru{
+    width: 30%;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.guru p{
+    font-family:'Righteous', cursive;
+    font-size: 30px;
+}
+
+.guru img{
+    width: 50%;
+    border-radius: 50%;
+    border: 2px solid black;
+}

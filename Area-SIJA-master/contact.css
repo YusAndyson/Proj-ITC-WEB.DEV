@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Domine:wght@500&family=Estonia&family=Grand+Hotel&family=Kanit:wght@100;200;500&family=Libre+Baskerville&family=Lobster&family=Montagu+Slab:wght@300&family=Oswald&family=Praise&family=Redressed&family=Righteous&family=Roboto:ital,wght@1,500&family=Secular+One&family=Supermercado+One&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Domine:wght@500&family=Estonia&family=Grand+Hotel&family=Kanit:wght@100;200;500&family=Libre+Baskerville&family=Lobster&family=Montagu+Slab:wght@300&family=Oswald&family=Praise&family=Redressed&family=Righteous&family=Roboto:ital,wght@1,500&family=Secular+One&family=Supermercado+One&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ramaraja&display=swap');
+
+body {
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    background-color: #c2d2bd;
+}
+
+/* navbar */
+ul li a {
+    font-family: 'Righteous', cursive;
+    color: black;
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link:hover {
+    background-color: rgb(241, 163, 19);
+    color: white;
+}
+/* contact form */
+
+/* footer */
+.footer p {
+    margin-bottom: 0;
+    color: rgb(192, 192, 192);
+}
+
+.footer a {
+    text-decoration: none;
+}

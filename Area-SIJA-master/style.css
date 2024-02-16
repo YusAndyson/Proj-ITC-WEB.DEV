@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Domine:wght@500&family=Estonia&family=Grand+Hotel&family=Kanit:wght@100;200;500&family=Libre+Baskerville&family=Lobster&family=Montagu+Slab:wght@300&family=Oswald&family=Praise&family=Redressed&family=Righteous&family=Roboto:ital,wght@1,500&family=Secular+One&family=Supermercado+One&family=Yellowtail&display=swap');
+
+ * {
+    font-family: 'Oswald' , sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    line-height: 1.5;
+}
+
+html {
+    /* font-size: 62.5%; */
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    padding-left: 15rem;
+} 
+
+section{
+    padding: 1rem 5%;
+    min-height: 100vh;
+    padding-right: 50px;
+}
+
+/* sidebar */
+header {
+    position: fixed;
+    top: 0; left: 0; bottom: 0;
+    background: rgb(9, 17, 119);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    flex-direction: column;
+    padding: 8rem 2rem;
+    width: 15rem;
+    text-align: center;
+}
+
+header img {
+    width: 200px;
+}
+
+ header .navbar a {
+    display: block;
+    font-size: 2rem;
+    color: white;
+    margin: 2rem 0;
+    font-size: 20px;
+} 
+
+header .navbar a:hover {
+    letter-spacing: 10px;
+    color: yellow;
+}
+
+header .navbar a:active {
+    letter-spacing: 10px;
+    color: yellow;
+}
+/* sidebar end */
+
+/* Home */
+.home .content h1 {
+    font-size: 2rem;
+    flex: 1 1 40rem;
+    background-image: url(./gedung\ SIJA.jpg);
+    height: 300px;
+    color: white;
+    text-align: center;
+    align-items: ;
+}
+/* Home end */
